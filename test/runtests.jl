@@ -1,6 +1,8 @@
 using SecretAnalysis
 using Test
 
-@testset "SecretAnalysis.jl" begin
-    # Write your own tests here.
+@testset "pi estimation" begin
+    @test 0 <= estimate_pi(1) <= 4
+    @test 0 <= estimate_pi(10) <= 4
+    @test_throws ArgumentError estimate_pi(0)
 end

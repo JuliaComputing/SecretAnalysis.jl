@@ -43,6 +43,7 @@ inspect the positive numbers alone!
 ![Quarter dartboard image](darts-quarter.svg)
 """
 function estimate_pi(n)
+    n > 0 || throw(ArgumentError("number of iterations must be >0, got $n"))
     inside = @distributed (+) for i in 1:n
         x, y = rand(), rand()
         Int(x^2 + y^2 <= 1)
