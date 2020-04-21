@@ -32,7 +32,7 @@ n_□ &\propto 4 \\
 
 In short, this ends up looking like:
 
-![Full dartboard image](darts-full.svg)
+![Full dartboard image](assets/darts-full.svg)
 
 However, this is a little cumbersome. It requires generating uniform
 random numbers in the interval $(-1, 1)$, but Julia's `rand()` by default gives
@@ -40,7 +40,7 @@ you something in $[0, 1)$. Thanks to the symmetry here, the above analysis is
 just as true for the upper-right quadrant alone, so we can just generate and
 inspect the positive numbers alone!
 
-![Quarter dartboard image](darts-quarter.svg)
+![Quarter dartboard image](assets/darts-quarter.svg)
 """
 function estimate_pi(n)
     n > 0 || throw(ArgumentError("number of iterations must be >0, got $n"))
