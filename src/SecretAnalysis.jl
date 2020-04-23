@@ -26,7 +26,7 @@ should be a proportional estimate of $4$.  A simple re-arrangement yields:
 \begin{aligned}
 n_○ &\propto \pi \\
 n_□ &\propto 4 \\
-\pi &\approx 4 * n_○ / n_□
+\pi &\approx 4 \frac{n_○}{n_□}
 \end{aligned}
 ```
 
