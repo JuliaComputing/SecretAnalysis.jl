@@ -7,4 +7,5 @@ println("#### Estimating π with $n throws ####")
 t = @timed @show estimate_pi(n)
 
 out = Dict(:pi => t[1], :time => @sprintf("%.1fs", t[2]), :workers => nworkers())
-ENV["OUTPUTS"] = JSON.json(out)
+# ENV["OUTPUTS"] = JSON.json(out)
+ENV["RESULTS"] = JSON.json(out)
