@@ -1,6 +1,6 @@
 using SecretAnalysis, JSON3, Printf, Distributed
 
-n = parse(Int64, replace(get(ENV, "n", "10_000_000_000"), '_'=>""))
+n = parse(Int64, replace(get(ENV, "n", "10_000_000_000"), '_' => ""))
 
 println("#### Estimating π with $n throws ####")
 
