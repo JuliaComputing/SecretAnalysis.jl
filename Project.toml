@@ -1,34 +1,15 @@
-name = "AlphaZero"
-uuid = "8ed9eb0b-7496-408d-8c8b-2119aeea02cd"
-authors = ["Jonathan Laurent <jonathan.laurent@cs.cmu.edu>"]
-version = "0.3.0"
+name = "SecretAnalysis"
+uuid = "8dfca4dd-ef31-4e42-8ec3-c12533c9aecd"
+authors = ["Matt Bauman"]
+version = "0.1.5"
 
 [deps]
-ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-CodeTracking = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
-ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
-Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
-Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
-DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
-Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
-Functors = "d9f16b24-f501-4c13-a1f2-28368ffc5196"
-JSON2 = "2535ab7d-5cd8-5a07-80ac-9b1792aadce3"
-JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
-Knet = "1902f260-5fb4-5aff-8c31-6271790ab950"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
-Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
-StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 
 [compat]
-julia = ">= 1.4"
+julia = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
