@@ -5,4 +5,4 @@
 @show @__DIR__
 @show readdir(@__DIR__)
 @show readdir(joinpath(@__DIR__, ".."))
-include("../app.jl")
+include("app.jl")
